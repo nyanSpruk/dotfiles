@@ -72,23 +72,23 @@ shift + lalt + lcmd + ctrl - left : yabai -m window --insert west
 hyper - r : yabai -m space --rotate 270
 
 ## Move active window to next space on current display and follow focus
-hyper - q: /Users/Nik/.config/yabai/scripts/move_win_follow_left.sh
-hyper - e: /Users/Nik/.config/yabai/scripts/move_win_follow_right.sh
+hyper - q: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow_left.sh
+hyper - e: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow_right.sh
 
 ## Move actice window to specific space on current display and follow focus
 ## Hyper + rcmd + number
-shift + lalt + lcmd + ctrl + rcmd - 1: /Users/Nik/.config/yabai/scripts/move_win_follow.sh 1
-shift + lalt + lcmd + ctrl + rcmd - 2: /Users/Nik/.config/yabai/scripts/move_win_follow.sh 2
-shift + lalt + lcmd + ctrl + rcmd - 3: /Users/Nik/.config/yabai/scripts/move_win_follow.sh 3
+shift + lalt + lcmd + ctrl + rcmd - 1: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow.sh 1
+shift + lalt + lcmd + ctrl + rcmd - 2: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow.sh 2
+shift + lalt + lcmd + ctrl + rcmd - 3: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow.sh 3
 ## TODO add for multiple displays and spaces
 
 # show next space per display
-#hyper - 1 : /Users/nik/.config/yabai/scripts/focus_space_SIP.sh 1
-#hyper - 2 : /Users/nik/.config/yabai/scripts/focus_space_SIP.sh 2
-#hyper - 3 : /Users/nik/.config/yabai/scripts/focus_space_SIP.sh 3
-hyper - 1 : /Users/nik/.config/yabai/scripts/focus_space_SIP.sh 1
-hyper - 2 : /Users/nik/.config/yabai/scripts/focus_space_SIP.sh 2
-hyper - 3 : /Users/nik/.config/yabai/scripts/focus_space_SIP.sh 3
+#hyper - 1 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 1
+#hyper - 2 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 2
+#hyper - 3 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 3
+hyper - 1 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 1
+hyper - 2 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 2
+hyper - 3 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 3
 
 ## toggle window fullscreen zoom
 hyper - f : yabai -m window --toggle zoom-fullscreen
