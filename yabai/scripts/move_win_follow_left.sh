@@ -1,0 +1,1 @@
+/Users/nik/.config/yabai/scripts/move_win_follow_left.sh
