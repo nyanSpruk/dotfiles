@@ -18,6 +18,11 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 ## Restart Yabai
 ## <kbd>cmd</kbd> + <kbd>ctrl/alt</kbd> + <kbd>option</kbd> + <kbd>r</kbd>
 
+</br>
+
+## Open a new terminal
+<kbd>hyper</kbd> + <kbd>return</kbd>
+
 
 ## Changing Focus
 
