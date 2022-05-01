@@ -49,14 +49,13 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 | Insert up    | <kbd>hyper</kbd> + <kbd>k</kbd> |
 | Insert right | <kbd>hyper</kbd> + <kbd>l</kbd> |
 
-## Rotate tree 90
-<kbd>hyper</kbd> + <kbd>r</kbd>
+## Tree keybinds
+| Action         | Key Combination                 |
+| -------------- | ------------------------------- |
+| Mirror X       | <kbd>hyper</kbd> + <kbd>x</kbd> |
+| Mirror y       | <kbd>hyper</kbd> + <kbd>y</kbd> |
+| Rotate tree 0- | <kbd>hyper</kbd> + <kbd>r</kbd> |
 
-## Mirror tree axis
-| Action   | Key Combination                 |
-| -------- | ------------------------------- |
-| Mirror X | <kbd>hyper</kbd> + <kbd>x</kbd> |
-| Mirror y | <kbd>hyper</kbd> + <kbd>y</kbd> |
 
 ## Toggle window fullscreen zoom
 <kbd>hyper</kbd> + <kbd>f</kbd>
@@ -64,7 +63,7 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 ## Toggle window split type
 <kbd>hyper</kbd> + <kbd>e</kbd>
 
-## ## Float / unfloat window
+## Float / unfloat window
 <kbd>hyper</kbd> + <kbd>t</kbd>
 
 ## Toggle gaps
