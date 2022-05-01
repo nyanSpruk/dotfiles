@@ -67,6 +67,9 @@ hyper - y : yabai -m space --mirror y-axis
 ## mirror tree x-axis
 hyper - x : yabai -m space --mirror x-axis
 
+# toggle window split type
+hyper - e : yabai -m window --toggle split
+
 ## toggle window fullscreen zoom
 hyper - f : yabai -m window --toggle zoom-fullscreen
 
@@ -87,7 +90,7 @@ shift + lalt + lcmd + ctrl - 3 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai
 
 ## Move active window to next space on current display and follow focus
 hyper - q: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow_left.sh
-hyper - e: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow_right.sh
+hyper - w: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow_right.sh
 
 ## Move actice window to specific space on current display and follow focus
 ## Hyper + rcmd + number

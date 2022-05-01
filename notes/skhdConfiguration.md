@@ -61,6 +61,9 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 ## Toggle window fullscreen zoom
 <kbd>hyper</kbd> + <kbd>f</kbd>
 
+## Toggle window split type
+<kbd>hyper</kbd> + <kbd>e</kbd>
+
 ## Toggle gaps
 <kbd>hyper</kbd> + <kbd>a</kbd>
 
@@ -76,8 +79,8 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 
 | Action              | Key Combination                                    |
 | ------------------- | -------------------------------------------------- |
-| Send to right left  | <kbd>hyper</kbd> + <kbd>q</kbd>                    |
-| Send to right right | <kbd>hyper</kbd> + <kbd>r</kbd>                    |
+| Send to left space  | <kbd>hyper</kbd> + <kbd>q</kbd>                    |
+| Send to right space | <kbd>hyper</kbd> + <kbd>w</kbd>                    |
 | Send to 1st space   | <kbd>hyper</kbd> + <kbd>rcmd</kbd>  + <kbd>1</kbd> |
 | Send to 2nd space   | <kbd>hyper</kbd> + <kbd>rcmd</kbd>  + <kbd>2</kbd> |
 | Send to 3rd space   | <kbd>hyper</kbd> + <kbd>rcmd</kbd> + <kbd>3</kbd>  |
