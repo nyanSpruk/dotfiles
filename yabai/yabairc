@@ -1,9 +1,6 @@
 #!/usr/bin/env sh
 #YABAI STUFF
 
-# bsp or float (default: bsp)
-#yabai -m config layout bsp
-
 yabai -m space 1 --label one
 yabai -m space 2 --label two
 yabai -m space 3 --label three

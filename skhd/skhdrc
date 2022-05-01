@@ -1,6 +1,6 @@
 #SKHD STUFF
 
-# if you're having troubles finding key codes for a key just type skhd --observe in a terminal and type a key. Pretty cool! Or just check the wiki.
+# To find a key code for a key type skhd --observe in a terminal and type a key.
 
 ## HYPER == SHIFT + CMD + ALT + OPTION
 
@@ -10,36 +10,31 @@ ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 ## open terminal
 alt - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
 
-## send window to monitor and follow focus
-# hyper - u : /Users/jesseskelton/CustomScripts/SwitchSpaces/moveWindowLeftAndFollowFocus.sh
-# hyper - p : /Users/jesseskelton/CustomScripts/SwitchSpaces/moveWindowRightAndFollowFocus.sh
-
-## focus display
-# ctrl + cmd - 1 : yabai -m window --display 1 yabai -m display --focus 1
-# ctrl + cmd - 2 : yabai -m window --display 2 yabai -m display --focus 2
-# ctrl + cmd - 3 : yabai -m window --display 3 yabai -m display --focus 3
-
-# Navigation
-#alt - up : yabai -m window --focus north
-#alt - right : yabai -m window --focus east
-#alt - down : yabai -m window --focus south
-#alt - left : yabai -m window --focus west
-
+# Focus window
 alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
 alt - j : yabai -m window --focus south
 alt - h : yabai -m window --focus west
 
-# Moving windows
-#shift + alt - up : yabai -m window --warp north
-#shift + alt - right : yabai -m window --warp east
-#shift + alt - down : yabai -m window --warp south
-#shift + alt - left : yabai -m window --warp west
+ ## Alternative example
 
+#alt - up : yabai -m window --focus north
+#alt - right : yabai -m window --focus east
+#alt - down : yabai -m window --focus south
+#alt - left : yabai -m window --focus west
+
+# Moving windows
 shift + alt - k : yabai -m window --warp north
 shift + alt - l : yabai -m window --warp east
 shift + alt - j : yabai -m window --warp south
 shift + alt - h : yabai -m window --warp west
+
+ ## Alternative example
+
+#shift + alt - up : yabai -m window --warp north
+#shift + alt - right : yabai -m window --warp east
+#shift + alt - down : yabai -m window --warp south
+#shift + alt - left : yabai -m window --warp west
 
 # Resize windows
 hyper - k : yabai -m window --resize top:0:-20; \
@@ -51,25 +46,32 @@ hyper - j : yabai -m window --resize bottom:0:20; \
 hyper - h : yabai -m window --resize left:-20:0; \
             yabai -m window --resize right:-20:0
 
-
-## This does not work because hyper hjkl are used for insertion points
-#hyper - h : yabai -m window --resize top:0:-20; \
-#            yabai -m window --resize bottom:0:-20
-#hyper - l : yabai -m window --resize right:20:0; \
-#            yabai -m window --resize left:20:0
-#hyper - j : yabai -m window --resize bottom:0:20; \
-#            yabai -m window --resize top:0:20
-#hyper - h : yabai -m window --resize left:-20:0; \
-#            yabai -m window --resize right:-20:0
-
-# Set insertion point for focused container
+# Set insertion point for window
 shift + lalt + lcmd + ctrl - up : yabai -m window --insert north
 shift + lalt + lcmd + ctrl - right : yabai -m window --insert east
 shift + lalt + lcmd + ctrl - down : yabai -m window --insert south
 shift + lalt + lcmd + ctrl - left : yabai -m window --insert west
 
-## rotate tree 90
+## rotate tree
 hyper - r : yabai -m space --rotate 270
+
+## toggle window fullscreen zoom
+hyper - f : yabai -m window --toggle zoom-fullscreen
+
+## send window to monitor and follow focus
+# TODO: Add these two scripts
+# hyper - u : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/moveWindowLeftAndFollowFocus.sh
+# hyper - p : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/moveWindowRightAndFollowFocus.sh
+
+## focus display
+# ctrl + cmd - 1 : yabai -m window --display 1 yabai -m display --focus 1
+# ctrl + cmd - 2 : yabai -m window --display 2 yabai -m display --focus 2
+# ctrl + cmd - 3 : yabai -m window --display 3 yabai -m display --focus 3
+
+# show next space per display
+hyper - 1 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 1
+hyper - 2 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 2
+hyper - 3 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 3
 
 ## Move active window to next space on current display and follow focus
 hyper - q: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow_left.sh
@@ -82,16 +84,24 @@ shift + lalt + lcmd + ctrl + rcmd - 2: /Users/nik/Developer/GitHubRepos/dotfiles
 shift + lalt + lcmd + ctrl + rcmd - 3: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow.sh 3
 ## TODO add for multiple displays and spaces
 
-# show next space per display
-#hyper - 1 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 1
-#hyper - 2 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 2
-#hyper - 3 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 3
-hyper - 1 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 1
-hyper - 2 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 2
-hyper - 3 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 3
 
-## toggle window fullscreen zoom
-hyper - f : yabai -m window --toggle zoom-fullscreen
+
+## Stacks
+
+##TODO Add more stacking funcioncality
+## Move item on stack to north/south/east/west
+shift + lalt + lcmd + ctrl + ralt - up : yabai -m window --stack north
+shift + lalt + lcmd + ctrl + ralt - right : yabai -m window --stack east
+shift + lalt + lcmd + ctrl + ralt - down : yabai -m window --stack south
+shift + lalt + lcmd + ctrl + ralt - left : yabai -m window --stack west
+
+## hyper - ; to cycle through stack
+hyper - 0x29 : yabai -m window --focus stack.next || yabai -m window --focus stack.first
+
+
+################# Not working/Unused below #########################
+################# Need to figure things out ########################
+
 
 # cycle through windows
 # cycle backwards
@@ -102,7 +112,7 @@ hyper - f : yabai -m window --toggle zoom-fullscreen
 #
 # go to each window WITHOUT going into a stack
 # ctrl + alt + cmd + lshift - i : yabai -m query --spaces | jq -re ".[] | select(.visible == 1).index" | xargs -I{} yabai -m query --windows --space {} | jq -re "[.[] | select((.\"stack-index\" <= 1) and (.app != \"Hammerspoon\"))]" | jq -sre "add | sort_by(.display, .frame.x, .frame.y, .id) | nth(index(map(select(.focused == 1))) - 1).id" | xargs -I{} yabai -m window --focus {}
-ctrl + alt + cmd + lshift - i : yabai -m query --spaces | jq -re ".[] | select(.visible == 1).index" | xargs -I{} yabai -m query --windows --space {} | jq -re "[.[] | select(.app != \"Hammerspoon\")]" | jq -sre "add | sort_by(.display, .frame.x, .frame.y, .id) | nth(index(map(select(.focused == 1))) - 1).id" | xargs -I{} yabai -m window --focus {}
+# ctrl + alt + cmd + lshift - i : yabai -m query --spaces | jq -re ".[] | select(.visible == 1).index" | xargs -I{} yabai -m query --windows --space {} | jq -re "[.[] | select(.app != \"Hammerspoon\")]" | jq -sre "add | sort_by(.display, .frame.x, .frame.y, .id) | nth(index(map(select(.focused == 1))) - 1).id" | xargs -I{} yabai -m window --focus {}
 
 # ctrl + alt + cmd + rshift - i : yabai -m window --focus stack.prev || yabai -m window --focus stack.last
 
@@ -113,26 +123,12 @@ ctrl + alt + cmd + lshift - i : yabai -m query --spaces | jq -re ".[] | select(.
 
 # go to each window WITHOUT going into a stack
 # ctrl + alt + cmd + lshift - o : yabai -m query --spaces | jq -re ".[] | select(.visible == 1).index" | xargs -I{} yabai -m query --windows --space {} | jq -re "[.[] | select((.\"stack-index\" <= 1) and (.app != \"Hammerspoon\"))]" | jq -sre "add | sort_by(.display, .frame.x, .frame.y, .id) | reverse | nth(index(map(select(.focused == 1))) - 1).id" | xargs -I{} yabai -m window --focus {}
-ctrl + alt + cmd + lshift - o : yabai -m query --spaces | jq -re ".[] | select(.visible == 1).index" | xargs -I{} yabai -m query --windows --space {} | jq -re "[.[] | select(.app != \"Hammerspoon\")]" | jq -sre "add | sort_by(.display, .frame.x, .frame.y, .id) | reverse | nth(index(map(select(.focused == 1))) - 1).id" | xargs -I{} yabai -m window --focus {}
+# ctrl + alt + cmd + lshift - o : yabai -m query --spaces | jq -re ".[] | select(.visible == 1).index" | xargs -I{} yabai -m query --windows --space {} | jq -re "[.[] | select(.app != \"Hammerspoon\")]" | jq -sre "add | sort_by(.display, .frame.x, .frame.y, .id) | reverse | nth(index(map(select(.focused == 1))) - 1).id" | xargs -I{} yabai -m window --focus {}
 
 # Toggle foucus on a stack
-ctrl + alt + cmd + lshift - return : yabai -m window --focus stack.next || yabai -m window --focus stack.first
+# ctrl + alt + cmd + lshift - return : yabai -m window --focus stack.next || yabai -m window --focus stack.first
 
 #create a stack
 # ctrl + alt + cmd + rshift - 1 : yabai -m query --windows --window | jq -re "." | xargs -I{} yabai -m window 1 --stack {}
 # stack next window onto current window
 # ctrl + alt + cmd + lshift - 0x43 : window=$(yabai -m query --windows --window | jq -r '.id') && yabai -m window east --stack $window || (yabai -m window $window --toggle float && yabai -m window $window --toggle float)
-
-
-##TODO Add more stacking funcioncality
-## Move item on stack to north/south/east/west
-shift + lalt + lcmd + ctrl + ralt - up : yabai -m window --stack north
-shift + lalt + lcmd + ctrl + ralt - right : yabai -m window --stack east
-shift + lalt + lcmd + ctrl + ralt - down : yabai -m window --stack south
-shift + lalt + lcmd + ctrl + ralt - left : yabai -m window --stack west
-
-ctrl + alt - i : yabai -m window --insert stack
-
-
-## Semicolon to cycle through the stack
-hyper - 0x29 : yabai -m window --focus stack.next || yabai -m window --focus stack.first
