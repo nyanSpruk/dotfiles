@@ -12,8 +12,8 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 
 ## Keyboard Shortcuts
 
-## <kbd>hyper</kbd> = <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>ctrl/alt</kbd> + <kbd>option</kbd>
-## <kbd>alt</kbd> = <kbd>option</kbd> on mac
+# <kbd>hyper</kbd> = <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>ctrl/alt</kbd> + <kbd>option</kbd>
+# <kbd>alt</kbd> = <kbd>option</kbd> on mac
 
 ## Restart Yabai
 ## <kbd>cmd</kbd> + <kbd>ctrl/alt</kbd> + <kbd>option</kbd> + <kbd>r</kbd>
