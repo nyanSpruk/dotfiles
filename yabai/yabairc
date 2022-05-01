@@ -22,6 +22,7 @@ yabai -m rule --add app="^Preview$" manage=off
 yabai -m rule --add app="^Preview$" manage=off
 yabai -m rule --add app="^Preview$" manage=off
 yabai -m rule --add app="^Preview$" manage=off
+yabai -m rule --add app="^Shottr$" manage=off
 yabai -m rule --add app="^Messages$" manage=off
 yabai -m rule --add app="^IINA$" manage=off
 # yabai -m rule --add app="^Spotify$" manage=off

@@ -13,7 +13,11 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 ## Keyboard Shortcuts
 
 ## <kbd>hyper</kbd> = <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>ctrl/alt</kbd> + <kbd>option</kbd>
-### <kbd>alt</kbd> = <kbd>option</kbd> on mac
+## <kbd>alt</kbd> = <kbd>option</kbd> on mac
+
+## Restart Yabai
+## <kbd>cmd</kbd> + <kbd>ctrl/alt</kbd> + <kbd>option</kbd> + <kbd>r</kbd>
+
 
 ## Changing Focus
 
@@ -68,6 +72,9 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 
 ## Toggle gaps
 <kbd>hyper</kbd> + <kbd>g</kbd>
+
+## Toggle window border
+<kbd>hyper</kbd> + <kbd>b</kbd>
 
 ## Focus space
 
