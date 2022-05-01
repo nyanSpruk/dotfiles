@@ -78,12 +78,9 @@ hyper - t : yabai -m window --toggle float && yabai -m window --grid 4:4:1:1:2:2
 
 ## Toggle border
 hyper - b : result=$(yabai -m query --windows | jq '.[0]."has-border"') && \
-            if [ "$result" = "true" ]; then \
-                yabai -m config window_border off; \
-            else \
-                yabai -m config window_border on; \
-            fi;
+        yabai -m config window_border $(test "$result" = "true" && echo "off" || echo "on") 
             
+
 
 ## send window to monitor and follow focus
 # TODO: Add these two scripts
