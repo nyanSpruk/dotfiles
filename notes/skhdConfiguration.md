@@ -54,7 +54,7 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 | -------------- | ------------------------------- |
 | Mirror X       | <kbd>hyper</kbd> + <kbd>x</kbd> |
 | Mirror y       | <kbd>hyper</kbd> + <kbd>y</kbd> |
-| Rotate tree 0- | <kbd>hyper</kbd> + <kbd>r</kbd> |
+| Rotate tree 90 | <kbd>hyper</kbd> + <kbd>r</kbd> |
 
 
 ## Toggle window fullscreen zoom
