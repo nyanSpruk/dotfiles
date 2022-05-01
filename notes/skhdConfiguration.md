@@ -1,13 +1,13 @@
 # skhd configuration
 
 ## Installation
+## WORK IN PROGRESS
 
 ```sh
 # Remove previous links
 $ rm -f "${HOME}"/.{yabai,skhd}rc
 
 # Install configs
-TODO
 ```
 
 ## Keyboard Shortcuts
