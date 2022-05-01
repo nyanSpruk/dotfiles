@@ -10,6 +10,12 @@ ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 ## open terminal
 alt - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
 
+# Toggle gaps
+# On startup gaps are enabled, and need to be turned off on per space basis
+# TODO Write a script to loop through spaces on startup and disable paddings
+shift + lalt + lcmd + ctrl - a: yabai -m space --toggle padding && yabai -m space --toggle gap
+
+
 # Focus window
 alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
@@ -69,9 +75,9 @@ hyper - f : yabai -m window --toggle zoom-fullscreen
 # ctrl + cmd - 3 : yabai -m window --display 3 yabai -m display --focus 3
 
 # show next space per display
-hyper - 1 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 1
-hyper - 2 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 2
-hyper - 3 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 3
+shift + lalt + lcmd + ctrl - 1 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 1
+shift + lalt + lcmd + ctrl - 2 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 2
+shift + lalt + lcmd + ctrl - 3 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 3
 
 ## Move active window to next space on current display and follow focus
 hyper - q: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow_left.sh

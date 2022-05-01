@@ -11,7 +11,6 @@ yabai -m rule --add app="^System Preferences$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Karabiner-Elements$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Karabiner-EventViewer$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Finder$" sticky=on layer=above manage=off
-yabai -m rule --add app="^Keka$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Alfred Preferences$" sticky=on layer=above manage=off
 yabai -m rule --add app="^Disk Utility$" sticky=on layer=above manage=off
 yabai -m rule --add app="^System Information$" sticky=on layer=above manage=off
@@ -30,7 +29,6 @@ yabai -m rule --add app="^KakaoTalk$" manage=off
 yabai -m rule --add app="^KakaoTalk$" manage=off
 yabai -m rule --add app="^KakaoTalk$" manage=off
 yabai -m rule --add app="^Telegram$" manage=off
-# yabai -m rule --add app="^iTerm2$" manage=off
 yabai -m rule --add app="^Flux$" manage=off
 yabai -m rule --add app="^Time Out$" manage=off
 yabai -m rule --add app="^console$" manage=off
@@ -82,6 +80,7 @@ yabai -m config bottom_padding 10
 yabai -m config left_padding 10
 yabai -m config right_padding 10
 yabai -m config window_gap 10
+
 
 # #Ubersicht widget bar stuff
 #yabai -m signal --add event=space_changed \

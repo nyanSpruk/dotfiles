@@ -55,6 +55,9 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 ## Toggle window fullscreen zoom
 <kbd>hyper</kbd> + <kbd>f</kbd>
 
+## Toggle gaps
+<kbd>hyper</kbd> + <kbd>a</kbd>
+
 ## Focus space
 
 | Action        | Key Combination                 |
