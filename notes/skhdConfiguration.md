@@ -52,6 +52,12 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 ## Rotate tree 90
 <kbd>hyper</kbd> + <kbd>r</kbd>
 
+## Mirror tree axis
+| Action   | Key Combination                 |
+| -------- | ------------------------------- |
+| Mirror X | <kbd>hyper</kbd> + <kbd>x</kbd> |
+| Mirror y | <kbd>hyper</kbd> + <kbd>y</kbd> |
+
 ## Toggle window fullscreen zoom
 <kbd>hyper</kbd> + <kbd>f</kbd>
 

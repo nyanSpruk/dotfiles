@@ -61,6 +61,12 @@ shift + lalt + lcmd + ctrl - left : yabai -m window --insert west
 ## rotate tree
 hyper - r : yabai -m space --rotate 270
 
+## mirror tree y-axis
+hyper - y : yabai -m space --mirror y-axis
+
+## mirror tree x-axis
+hyper - x : yabai -m space --mirror x-axis
+
 ## toggle window fullscreen zoom
 hyper - f : yabai -m window --toggle zoom-fullscreen
 
