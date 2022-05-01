@@ -64,8 +64,11 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 ## Toggle window split type
 <kbd>hyper</kbd> + <kbd>e</kbd>
 
+## ## Float / unfloat window
+<kbd>hyper</kbd> + <kbd>t</kbd>
+
 ## Toggle gaps
-<kbd>hyper</kbd> + <kbd>a</kbd>
+<kbd>hyper</kbd> + <kbd>g</kbd>
 
 ## Focus space
 

@@ -13,7 +13,7 @@ alt - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
 # Toggle gaps
 # On startup gaps are enabled, and need to be turned off on per space basis
 # TODO Write a script to loop through spaces on startup and disable paddings
-shift + lalt + lcmd + ctrl - a: yabai -m space --toggle padding && yabai -m space --toggle gap
+shift + lalt + lcmd + ctrl - g: yabai -m space --toggle padding && yabai -m space --toggle gap
 
 
 # Focus window
@@ -72,6 +72,9 @@ hyper - e : yabai -m window --toggle split
 
 ## toggle window fullscreen zoom
 hyper - f : yabai -m window --toggle zoom-fullscreen
+
+## float / unfloat window
+hyper - t : yabai -m window --toggle float && yabai -m window --grid 4:4:1:1:2:2
 
 ## send window to monitor and follow focus
 # TODO: Add these two scripts
