@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 #YABAI STUFF
 
-yabai -m space 1 --label one
-yabai -m space 2 --label two
-yabai -m space 3 --label three
+yabai -m space 1 --label Dev
+yabai -m space 2 --label Web
+yabai -m space 3 --label Social
 
 
 # float system preferences. Most of these just diable Yabai form resizing them.
@@ -24,6 +24,7 @@ yabai -m rule --add app="^Preview$" manage=off
 yabai -m rule --add app="^Preview$" manage=off
 yabai -m rule --add app="^Shottr$" manage=off
 yabai -m rule --add app="^Messages$" manage=off
+yabai -m rule --add app="^Archive Utility$" manage=off
 yabai -m rule --add app="^IINA$" manage=off
 # yabai -m rule --add app="^Spotify$" manage=off
 yabai -m rule --add app="^KakaoTalk$" manage=off
@@ -86,17 +87,17 @@ yabai -m config window_gap 10
 # #Ubersicht widget bar stuff
 #yabai -m signal --add event=space_changed \
 #action="osascript -e 'tell application \"Übersicht\" to refresh widget id 
-\"nibar-spaces-primary-jsx\"'"
+\"simple-bar-spaces-primary-jsx\"'"
 #yabai -m signal --add event=display_changed \
 #action="osascript -e 'tell application \"Übersicht\" to refresh widget id 
-\"nibar-spaces-primary-jsx\"'"
+\"simple-bar-spaces-primary-jsx\"'"
 
 #yabai -m signal --add event=space_changed \
 #action="osascript -e 'tell application \"Übersicht\" to refresh widget id 
-\"nibar-spaces-secondary-jsx\"'"
+\"simple-bar-spaces-secondary-jsx\"'"
 #yabai -m signal --add event=display_changed \
 #action="osascript -e 'tell application \"Übersicht\" to refresh widget id 
-\"nibar-spaces-secondary-jsx\"'"
+\"simple-bar-spaces-secondary-jsx\"'"
 
 
 echo "yabai configuration loaded.."
