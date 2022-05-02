@@ -48,7 +48,7 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 | Resize up    | <kbd>hyper</kbd> + <kbd>k</kbd> |
 | Resize right | <kbd>hyper</kbd> + <kbd>l</kbd> |
 
-### Set insertion point for window
+## Set insertion point for window
 | Action       | Key Combination                 |
 | ------------ | ------------------------------- |
 | Insert left  | <kbd>hyper</kbd> + <kbd>h</kbd> |
