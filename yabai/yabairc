@@ -1,9 +1,10 @@
 #!/usr/bin/env sh
 #YABAI STUFF
 
-yabai -m space 1 --label Dev
-yabai -m space 2 --label Web
-yabai -m space 3 --label Social
+yabai -m space 1 --label Terminal
+yabai -m space 2 --label Dev
+yabai -m space 3 --label Web
+yabai -m space 4 --label Social
 
 
 # float system preferences. Most of these just diable Yabai form resizing them.

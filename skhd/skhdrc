@@ -96,6 +96,7 @@ hyper - b : result=$(yabai -m query --windows | jq '.[0]."has-border"') && \
 shift + lalt + lcmd + ctrl - 1 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 1
 shift + lalt + lcmd + ctrl - 2 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 2
 shift + lalt + lcmd + ctrl - 3 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 3
+shift + lalt + lcmd + ctrl - 4 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/focus_space_SIP.sh 4
 
 ## Move active window to next space on current display and follow focus
 hyper - q: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow_left.sh
@@ -106,6 +107,7 @@ hyper - w: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_foll
 shift + lalt + lcmd + ctrl + rcmd - 1: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow.sh 1
 shift + lalt + lcmd + ctrl + rcmd - 2: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow.sh 2
 shift + lalt + lcmd + ctrl + rcmd - 3: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow.sh 3
+shift + lalt + lcmd + ctrl + rcmd - 4: /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/move_win_follow.sh 4
 ## TODO add for multiple displays and spaces
 
 
