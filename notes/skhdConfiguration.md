@@ -86,16 +86,18 @@ $ rm -f "${HOME}"/.{yabai,skhd}rc
 | Focus Space 1 | <kbd>hyper</kbd> + <kbd>1</kbd> |
 | Focus Space 2 | <kbd>hyper</kbd> + <kbd>2</kbd> |
 | Focus Space 3 | <kbd>hyper</kbd> + <kbd>3</kbd> |
+| Focus Space 4 | <kbd>hyper</kbd> + <kbd>4</kbd> |
 
 ## Move window to space on active display
 
-| Action              | Key Combination                                    |
-| ------------------- | -------------------------------------------------- |
-| Send to left space  | <kbd>hyper</kbd> + <kbd>q</kbd>                    |
-| Send to right space | <kbd>hyper</kbd> + <kbd>w</kbd>                    |
-| Send to 1st space   | <kbd>hyper</kbd> + <kbd>rcmd</kbd>  + <kbd>1</kbd> |
-| Send to 2nd space   | <kbd>hyper</kbd> + <kbd>rcmd</kbd>  + <kbd>2</kbd> |
-| Send to 3rd space   | <kbd>hyper</kbd> + <kbd>rcmd</kbd> + <kbd>3</kbd>  |
+| Action              | Key Combination                                   |
+| ------------------- | ------------------------------------------------- |
+| Send to left space  | <kbd>hyper</kbd> + <kbd>q</kbd>                   |
+| Send to right space | <kbd>hyper</kbd> + <kbd>w</kbd>                   |
+| Send to 1st space   | <kbd>hyper</kbd> + <kbd>rcmd</kbd> + <kbd>1</kbd> |
+| Send to 2nd space   | <kbd>hyper</kbd> + <kbd>rcmd</kbd> + <kbd>2</kbd> |
+| Send to 3rd space   | <kbd>hyper</kbd> + <kbd>rcmd</kbd> + <kbd>3</kbd> |
+| Send to 4th space   | <kbd>hyper</kbd> + <kbd>rcmd</kbd> + <kbd>4</kbd> |
 #
 
 ## Stack focused window with window on north/east/south/west
