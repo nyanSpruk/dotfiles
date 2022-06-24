@@ -1,10 +1,12 @@
 #!/usr/bin/env sh
 #YABAI STUFF
 
-yabai -m space 1 --label Terminal
-yabai -m space 2 --label Dev
-yabai -m space 3 --label Web
-yabai -m space 4 --label Social
+yabai -m space 1 --label Dev
+yabai -m space 2 --label Web
+yabai -m space 3 --label Social
+yabai -m space 4 --label D-Main
+yabai -m space 5 --label D-Dev
+yabai -m space 6 --label D-Terminal
 
 
 # float system preferences. Most of these just diable Yabai form resizing them.
@@ -79,11 +81,19 @@ yabai -m config mouse_action1 move
 ## Change how yabai looks
 yabai -m config layout bsp
 
-yabai -m config top_padding 12
+# All Screens / Spaces
 yabai -m config bottom_padding 12
 yabai -m config left_padding 12
 yabai -m config right_padding 12
 yabai -m config window_gap 12
+
+# Per Screen / Space settings
+yabai -m config --space 1 top_padding 12
+yabai -m config --space 2 top_padding 12
+yabai -m config --space 3 top_padding 12
+yabai -m config --space 4 top_padding 48
+yabai -m config --space 5 top_padding 48
+yabai -m config --space 6 top_padding 48
 
 
 # #Ubersicht widget bar stuff
