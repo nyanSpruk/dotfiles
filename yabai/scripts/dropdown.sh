@@ -6,6 +6,6 @@
    osascript -e 'tell application "Finder"' -e 'set visible of process "kitty" to false' -e 'end tell'
    yabai -m window --focus recent
  else
-   open -a /Applications/kitty.app
+  #  open -a /Applications/kitty.app
    $(/Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/kitty.sh)
  fi

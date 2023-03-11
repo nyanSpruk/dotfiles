@@ -8,7 +8,8 @@
 ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 
 ## open terminal
-alt - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
+alt - return : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/iterm.sh
+# alt - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
 
 # Toggle gaps
 # On startup gaps are enabled, and need to be turned off on per space basis
@@ -73,7 +74,6 @@ hyper - e : yabai -m space --balance
 
 
 
-# If focused window is kitty terminal, open iTerm2
 
 cmd - f1 : /Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/dropdown.sh
 
