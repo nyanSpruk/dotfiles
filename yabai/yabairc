@@ -49,6 +49,7 @@ yabai -m rule --add app="^Time Out$" manage=off
 yabai -m rule --add app="^console$" manage=off
 yabai -m rule --add app="^Vivid$" manage=off sticky=on layer=above 
 yabai -m rule --add app="^vivid$" manage=off sticky=on layer=above 
+# yabai -m rule --add app="^Arc$" manage=off
 
 #find ~/Library/Parallels/Applications\ Menus/ -maxdepth 3 -type f | awk -F'/' '{ print $NF; }' | awk 
 '{$1=$1};1' | sort | uniq | tr "\n" "\0" | xargs -0 -I{} yabai -m rule --add app="^{}\$" title=".*" 
@@ -148,6 +149,12 @@ yabai -m config active_window_border_color 0x6600ccff
 #yabai -m signal --add event=display_changed \
 #action="osascript -e 'tell application \"Übersicht\" to refresh widget id 
 # \"simple-bar-spaces-secondary-jsx\"'"
+
+# SIGNALS
+# Createa a list of apps (Arc, Chrome, etc)
+apps=(Arc)
+yabai -m signal --add event=window_created app="${apps}" action='/Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/float.sh'
+# $(/Users/nik/Developer/GitHubRepos/dotfiles/yabai/scripts/float.sh)
 
 
 echo "yabai configuration loaded.."
